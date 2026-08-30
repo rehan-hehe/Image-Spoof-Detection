@@ -1,9 +1,9 @@
 # Image Spoof Detection System
 
-This repository contains the source code for a multi-stage Image Spoof Detection System, developed as a course project for DA-221M under Dr Teena Sharma. The system integrates deep learning models (MobileNet, EfficientNet) with traditional machine learning (SVM on LBP features) to create a robust pipeline for detecting various types of image manipulation. The entire system is served via a user-friendly Flask web application.
+This repository contains the source code for a multi-stage Image Spoof Detection System, developed as a course project for DA-221M. The system integrates deep learning models (MobileNet, EfficientNet) with traditional machine learning (SVM on LBP features) to create a robust pipeline for detecting various types of image manipulation. The entire system is served via a user-friendly Flask web application.
 
 **For a detailed breakdown of the methodology, datasets, and results, please see the full `Course Project Report.pdf` included in this repository.**
-----
+---
 
 ## Core Features
 -   **Multi-Stage Detection Pipeline:** Defends against various attacks including 2D image forgery, deepfakes, and 3D mask spoofing.
@@ -28,7 +28,7 @@ The system is built from three distinct detection modules. Each was trained and 
 -   **Computer Vision:** OpenCV, Dlib, Scikit-image
 -   **Core Libraries:** Python, NumPy
 
-----
+---
 
 ## Quick Start
 
